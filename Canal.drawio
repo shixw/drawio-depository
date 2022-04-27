@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T12:22:07.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="lglK2N4Hv0bA4x0Jn8nK" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-27T13:12:42.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="8vSGf9WSzYWFwDNjqlwu" version="17.4.6" type="github" pages="2">
   <diagram id="-Vd5pMnDtLKlJd5kKs-O" name="Instance">
     <mxGraphModel dx="2125" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-60" value="eventType =&amp;nbsp;&lt;br&gt;Insert&lt;br&gt;Update&lt;br&gt;Delete" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#000000;strokeWidth=1;fillColor=default;size=20;align=left;" vertex="1" parent="mXWGgP68HbcyL5andyQq-99">
-          <mxGeometry x="451" y="120.5" width="89" height="59.5" as="geometry" />
+          <mxGeometry x="445" y="270" width="89" height="59.5" as="geometry" />
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-61" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="mXWGgP68HbcyL5andyQq-99" source="mXWGgP68HbcyL5andyQq-59" target="mXWGgP68HbcyL5andyQq-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -445,10 +445,10 @@
           <mxGeometry x="366" y="248" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-71" value="&lt;span&gt;刷新缓冲中的数据&lt;br&gt;设置flush位置&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#000000;strokeWidth=1;fillColor=default;size=21;align=left;" vertex="1" parent="mXWGgP68HbcyL5andyQq-99">
-          <mxGeometry x="551" y="98" width="120" height="40" as="geometry" />
+          <mxGeometry x="556" y="98" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-72" value="flush()&lt;br&gt;刷新缓存" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=default;" vertex="1" parent="mXWGgP68HbcyL5andyQq-99">
-          <mxGeometry x="551" y="168" width="70" height="40" as="geometry" />
+          <mxGeometry x="561" y="168" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-73" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="mXWGgP68HbcyL5andyQq-99" source="mXWGgP68HbcyL5andyQq-72" target="mXWGgP68HbcyL5andyQq-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -457,7 +457,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-74" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#000000;strokeWidth=1;fillColor=default;" vertex="1" parent="mXWGgP68HbcyL5andyQq-99">
-          <mxGeometry x="534" y="93" width="20" height="190" as="geometry" />
+          <mxGeometry x="536" y="93" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-75" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mXWGgP68HbcyL5andyQq-99">
           <mxGeometry x="311" y="60" width="20" height="20" as="geometry" />
@@ -500,6 +500,9 @@
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="mXWGgP68HbcyL5andyQq-99" source="mXWGgP68HbcyL5andyQq-65" target="mXWGgP68HbcyL5andyQq-68">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wM_Tq6hQya8Bdgrir3rz-18" value="com.alibaba.otter.canal.&lt;br&gt;protocol.CanalEntry.EventType" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="mXWGgP68HbcyL5andyQq-99">
+          <mxGeometry x="491" y="293" width="179" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mXWGgP68HbcyL5andyQq-165" value="LogEventConvert.parse()&lt;br&gt;此处由特殊逻辑，在解析到Insert、update、delete等事件的时候，使用的内部方法&amp;nbsp;parseRowsEvent() , 内部会先解析表的元数据，parseRowsEventForTableMeta()， 在解析元数据的时候会使用filter对表名进行过滤， 只有通过校验才会返回表元数据，如果没有返回表的元数据， 本次解析是不会解析变更的数据的，只会将一个空的事务add到缓存中，&lt;br&gt;其实为了减少不必要的解析&lt;br&gt;此处的filter包含两种，主要对应：&amp;nbsp;canal.instance.filter.regex&amp;nbsp; 和&amp;nbsp;canal.instance.filter.black.regex 两个配置文件" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#000000;strokeWidth=1;fillColor=default;verticalAlign=top;align=left;size=20;" vertex="1" parent="1">
           <mxGeometry x="-340" y="1360" width="600" height="110" as="geometry" />
@@ -574,6 +577,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-170.76923076923077" y="194.6153846153846" as="sourcePoint" />
             <mxPoint x="-124.61538461538463" y="152.30769230769232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wM_Tq6hQya8Bdgrir3rz-14" value="&lt;span style=&quot;font-size: 11px&quot;&gt;打散后的事件类型，主要用于标识事务的开始，变更数据，结束&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;com.alibaba.otter.canal.protocol.CanalEntry.EntryType&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#000000;strokeWidth=1;fillColor=default;verticalAlign=bottom;size=19;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1560" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wM_Tq6hQya8Bdgrir3rz-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wM_Tq6hQya8Bdgrir3rz-14" target="mXWGgP68HbcyL5andyQq-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1620" as="sourcePoint" />
+            <mxPoint x="510" y="1740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
