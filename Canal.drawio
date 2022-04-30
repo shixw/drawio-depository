@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-04-30T15:49:39.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="yjtju1GTAXWlP81yK2la" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-30T15:50:53.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NYa1lT_PmrIrnexzBPmj" version="17.4.6" type="github" pages="3">
   <diagram id="-Vd5pMnDtLKlJd5kKs-O" name="Instance">
     <mxGraphModel dx="3245" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iQ8inKgUXQBIBoKRJy8k-1" value="Intsance&amp;nbsp;代表单个canal实例，比如一个destination会独立一个实例，每一个实例对应一个数据的监听，大体包含 parse-&amp;gt;sink-&amp;gt;store 三个过程， 同时还会维护一些元数据管理" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;size=21;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry width="280" height="80" as="geometry" />
+          <mxGeometry x="20" y="15" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zkr-3ipXMRZv6EVP7O40-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;strokeColor=#000000;strokeWidth=1;fillColor=#BC6C25;" edge="1" parent="1" source="iQ8inKgUXQBIBoKRJy8k-2" target="iQ8inKgUXQBIBoKRJy8k-5">
           <mxGeometry relative="1" as="geometry" />
