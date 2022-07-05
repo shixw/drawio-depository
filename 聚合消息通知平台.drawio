@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T02:29:54.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="57UpkJdO5HCqXOQ7mZU4" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-05T02:41:00.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jAXQCnE6vVJkoKHcN7KB" version="20.0.4" type="github" pages="4">
   <diagram id="65Mi33oXqD-q-DYAvQKY" name="第 1 页">
     <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KMacQfEnssi3TWIQPOU7" name="数据ER">
-    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2163" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1135,6 +1135,14 @@
         <mxCell id="mzkIRQQWmpQnKkP8kf1S-56" value="消息通知日志，到接收人维度" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/dompicon-glyph-file-format-2/256/file-log-format-type-128.png" vertex="1" parent="1">
           <mxGeometry x="1370" y="570" width="70" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xJQbcPnS_4Im1T1lFH-d" name="部署图">
+    <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
