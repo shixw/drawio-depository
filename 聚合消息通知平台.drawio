@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T02:41:00.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jAXQCnE6vVJkoKHcN7KB" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-05T03:34:11.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="JmyEFBAJxzAv0HPteWCF" version="20.0.4" type="github" pages="4">
   <diagram id="65Mi33oXqD-q-DYAvQKY" name="第 1 页">
     <mxGraphModel dx="1298" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,33 +9,6 @@
         </mxCell>
         <mxCell id="OdCXKAyPsm99MGkNIhCj-3" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="10" y="180" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-4" value="AMNP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="50" y="450" width="460" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-5" value="元数据管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="80" y="620" width="220" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-6" value="消息类型管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="90" y="630" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-7" value="消息通道管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="90" y="680" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-8" value="接入系统管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="190" y="630" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-9" value="系统和通道绑定关系" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="190" y="680" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-10" value="业务场景配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="80" y="480" width="220" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-11" value="业务场景管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="90" y="500" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-12" value="业务数据映射" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="350" y="490" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OdCXKAyPsm99MGkNIhCj-13" value="聚合消息通知平台" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="180" y="180" width="90" height="40" as="geometry" />
@@ -81,9 +54,6 @@
               <mxPoint x="340" y="200" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="OdCXKAyPsm99MGkNIhCj-25" value="消息日志" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="360" y="680" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
