@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T08:30:48.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hdOrw1dCqvnDycVI-7lt" version="20.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-04T07:05:15.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="c0DgWrMj8irAU86-1ZTa" version="20.2.2" type="github" pages="7">
   <diagram id="65Mi33oXqD-q-DYAvQKY" name="第 1 页">
     <mxGraphModel dx="1298" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1517,6 +1517,74 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bv_TOuQWrPNUJd-crZNJ" name="使用流程">
+    <mxGraphModel dx="2125" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TqGpwEcQ_0UHes0e6vhY-1" target="TqGpwEcQ_0UHes0e6vhY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-1" value="添加接入的系统" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-3" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TqGpwEcQ_0UHes0e6vhY-2" target="TqGpwEcQ_0UHes0e6vhY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-6" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TqGpwEcQ_0UHes0e6vhY-2" target="TqGpwEcQ_0UHes0e6vhY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-2" value="是否已存在系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-4" value="添加需要的消息通道" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TqGpwEcQ_0UHes0e6vhY-5" target="TqGpwEcQ_0UHes0e6vhY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-8" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TqGpwEcQ_0UHes0e6vhY-7">
+          <mxGeometry x="-0.0455" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TqGpwEcQ_0UHes0e6vhY-5" target="TqGpwEcQ_0UHes0e6vhY-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TqGpwEcQ_0UHes0e6vhY-12">
+          <mxGeometry x="-0.7476" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-5" value="是否已存在&lt;br&gt;消息通道" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-11" value="配置业务场景" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-14" value="场景描述" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-15" value="推送的消息通道" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="430" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-16" value="消息模板" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TqGpwEcQ_0UHes0e6vhY-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="60" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
