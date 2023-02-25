@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T03:05:15.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="xg-4YDvoX2GYkV22B479" type="github"><diagram name="第 1 页" id="YS3clBRnc7iT6vudY9J9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-25T03:14:39.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VBqgXgCZ2Q7QIbPF4aHg" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="YS3clBRnc7iT6vudY9J9">
+    <mxGraphModel dx="2133" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-1" value="支付" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ldl0Ys7cOoWm4q55uvAo-2" target="Ldl0Ys7cOoWm4q55uvAo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ldl0Ys7cOoWm4q55uvAo-2" target="Ldl0Ys7cOoWm4q55uvAo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-2" value="订单管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-3" value="用户订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-4" value="履约订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-7" value="学校基本信息&lt;br&gt;学校、食堂、窗口、学生、年级、班级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-8" value="系统基本信息" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="120" y="690" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-9" value="用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-10" value="角色" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-11" value="菜单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-12" value="数据字典" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-13" value="项目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-14" value="中央厨房" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldl0Ys7cOoWm4q55uvAo-15" value="菜品&lt;br&gt;类型菜品的erp管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
