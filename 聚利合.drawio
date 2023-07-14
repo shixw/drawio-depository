@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T01:38:42.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.2.9" etag="zysaSR-WgMNfscrKFQFy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T06:27:19.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OjXND2_psN-Ti_Ue5NqC" version="21.2.9" type="github">
   <diagram name="第 1 页" id="YmVnCf1d-sXC9eb6TBA2">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iRofQGH32XjUwGIf6GtU-1" value="学校" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-2" value="项目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-3" value="班级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-4" value="学生" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-5" value="教师" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-6" value="家长" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-7" value="钱包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-8" value="食堂" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-9" value="窗口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-10" value="年级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iRofQGH32XjUwGIf6GtU-11" value="设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
