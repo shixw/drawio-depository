@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T12:47:07.260Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LDL2gvLySiD7n154hjPL" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-17T12:52:01.193Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UsC0g0TQcDaJpsU6Ms8_" version="21.2.9" type="github" pages="3">
   <diagram name="概念模型" id="YmVnCf1d-sXC9eb6TBA2">
     <mxGraphModel dx="1633" dy="1016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,14 +241,14 @@
         <mxCell id="ImHxP6YJRU3pyrcGxdmH-30" value="餐次信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="130" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ImHxP6YJRU3pyrcGxdmH-31" value="1 : N" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iRofQGH32XjUwGIf6GtU-1" target="ImHxP6YJRU3pyrcGxdmH-30">
+        <mxCell id="ImHxP6YJRU3pyrcGxdmH-31" value="1 : 1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iRofQGH32XjUwGIf6GtU-1" target="ImHxP6YJRU3pyrcGxdmH-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="170" as="sourcePoint" />
             <mxPoint x="210" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ImHxP6YJRU3pyrcGxdmH-32" value="饭卡&lt;br&gt;jlh_student_meal_card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="870" y="270" width="170" height="40" as="geometry" />
+          <mxGeometry x="860" y="260" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ImHxP6YJRU3pyrcGxdmH-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iRofQGH32XjUwGIf6GtU-4" target="ImHxP6YJRU3pyrcGxdmH-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
