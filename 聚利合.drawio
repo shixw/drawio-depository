@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T08:48:54.756Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Uak0s4SRMucFAJ10K0YL" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-17T08:56:10.871Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vrm6O_iO99qZ7CBFZAWB" version="21.2.9" type="github" pages="2">
   <diagram name="概念模型" id="YmVnCf1d-sXC9eb6TBA2">
     <mxGraphModel dx="1633" dy="1016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
         <mxCell id="iRofQGH32XjUwGIf6GtU-6" value="家长&lt;br&gt;jlh_student_patriarch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="380" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iRofQGH32XjUwGIf6GtU-7" value="钱包&lt;br&gt;jlh_wallet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="130" width="80" height="40" as="geometry" />
+        <mxCell id="iRofQGH32XjUwGIf6GtU-7" value="钱包&lt;br&gt;jlh_student_meal_card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="860" y="130" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iRofQGH32XjUwGIf6GtU-8" value="食堂&lt;br&gt;jlh_kitchen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="370" width="80" height="40" as="geometry" />
@@ -247,7 +247,7 @@
             <mxPoint x="210" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ImHxP6YJRU3pyrcGxdmH-32" value="饭卡&lt;br&gt;jlh_student_meal_card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ImHxP6YJRU3pyrcGxdmH-32" value="饭卡&lt;br&gt;jlh_student_meal_card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="870" y="270" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ImHxP6YJRU3pyrcGxdmH-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iRofQGH32XjUwGIf6GtU-4" target="ImHxP6YJRU3pyrcGxdmH-32">
