@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T06:27:19.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OjXND2_psN-Ti_Ue5NqC" version="21.2.9" type="github">
-  <diagram name="第 1 页" id="YmVnCf1d-sXC9eb6TBA2">
+<mxfile host="app.diagrams.net" modified="2023-07-17T02:53:04.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FpvKPfTNyYElbjhop6ru" version="21.2.9" type="github" pages="2">
+  <diagram name="概念模型" id="YmVnCf1d-sXC9eb6TBA2">
     <mxGraphModel dx="1306" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="740" y="190" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iRofQGH32XjUwGIf6GtU-7" value="钱包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="410" width="80" height="40" as="geometry" />
+          <mxGeometry x="650" y="360" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iRofQGH32XjUwGIf6GtU-8" value="食堂" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="510" width="80" height="40" as="geometry" />
@@ -35,7 +35,156 @@
           <mxGeometry x="310" y="190" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iRofQGH32XjUwGIf6GtU-11" value="设备" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="520" width="80" height="40" as="geometry" />
+          <mxGeometry x="620" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oBo3RNyHViaaAPsunfGG" name="业务场景和模式">
+    <mxGraphModel dx="1306" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zIwxUje-eFb_5oevXVoE-1" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="720" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-1">
+          <mxGeometry width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-3" value="用餐方式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-2">
+          <mxGeometry width="93" height="30" as="geometry">
+            <mxRectangle width="93" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-4" value="支付方式" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-2">
+          <mxGeometry x="93" width="94" height="30" as="geometry">
+            <mxRectangle width="94" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-5" value="选餐渠道" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-2">
+          <mxGeometry x="187" width="93" height="30" as="geometry">
+            <mxRectangle width="93" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-65" value="业务场景描述" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-2">
+          <mxGeometry x="280" width="440" height="30" as="geometry">
+            <mxRectangle width="440" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-1">
+          <mxGeometry y="30" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-7" value="配餐" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-6">
+          <mxGeometry width="93" height="40" as="geometry">
+            <mxRectangle width="93" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-8" value="预付款" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-6">
+          <mxGeometry x="93" width="94" height="40" as="geometry">
+            <mxRectangle width="94" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-9" value="小程序" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-6">
+          <mxGeometry x="187" width="93" height="40" as="geometry">
+            <mxRectangle width="93" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-66" value="按月/周提前支付，在小程序针对已支付的时间周期，提前选择菜品，由中央厨房将餐配送到学校" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-6">
+          <mxGeometry x="280" width="440" height="40" as="geometry">
+            <mxRectangle width="440" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-1">
+          <mxGeometry y="70" width="720" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-11" value="配餐" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-10">
+          <mxGeometry width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-12" value="现款" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-10">
+          <mxGeometry x="93" width="94" height="31" as="geometry">
+            <mxRectangle width="94" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-13" value="小程序" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-10">
+          <mxGeometry x="187" width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-67" value="提前一天或者多天，在小程序预订后续一段时间的餐，选完菜品后付款，由中央厨房将餐配送到学校" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-10">
+          <mxGeometry x="280" width="440" height="31" as="geometry">
+            <mxRectangle width="440" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-1">
+          <mxGeometry y="101" width="720" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-15" value="堂食" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-14">
+          <mxGeometry width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-16" value="现款" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-14">
+          <mxGeometry x="93" width="94" height="33" as="geometry">
+            <mxRectangle width="94" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-17" value="学校食堂" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-14">
+          <mxGeometry x="187" width="93" height="33" as="geometry">
+            <mxRectangle width="93" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-68" value="学生直接到食堂进行选餐，用餐，使用刷脸支付现场进行支付" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-14">
+          <mxGeometry x="280" width="440" height="33" as="geometry">
+            <mxRectangle width="440" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-1">
+          <mxGeometry y="134" width="720" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-19" value="堂食" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-18">
+          <mxGeometry width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-20" value="现款" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-18">
+          <mxGeometry x="93" width="94" height="31" as="geometry">
+            <mxRectangle width="94" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-21" value="小程序" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-18">
+          <mxGeometry x="187" width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-69" value="提前一天或者多天，在小程序预订后续一段时间的餐，选完菜品后直接付款，然后学生会到学校食堂相关窗口进行取餐，用餐" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-18">
+          <mxGeometry x="280" width="440" height="31" as="geometry">
+            <mxRectangle width="440" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-75" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fillColor=#FFFFFF;strokeColor=#82b366;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-1">
+          <mxGeometry y="165" width="720" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-76" value="堂食" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-75">
+          <mxGeometry width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-77" value="预付款" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-75">
+          <mxGeometry x="93" width="94" height="31" as="geometry">
+            <mxRectangle width="94" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-78" value="小程序" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-75">
+          <mxGeometry x="187" width="93" height="31" as="geometry">
+            <mxRectangle width="93" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zIwxUje-eFb_5oevXVoE-79" value="按月/周提前支付，在小程序针对已支付的时间周期，提前选择菜品，然后学生会到学校食堂相关窗口进行取餐、用餐" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;" vertex="1" parent="zIwxUje-eFb_5oevXVoE-75">
+          <mxGeometry x="280" width="440" height="31" as="geometry">
+            <mxRectangle width="440" height="31" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
