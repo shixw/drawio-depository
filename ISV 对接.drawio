@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T03:21:34.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="CAnQeSZORjXhwpu0PjIt" version="21.6.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-01T05:46:43.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZaMnBwA4_EIx4JCFj6-K" version="21.6.9" type="github" pages="3">
   <diagram name="用例" id="6TFDku2e0TgfrtryKRBb">
     <mxGraphModel dx="1306" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -763,7 +763,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="omePirgK-JtBBkt19uV0" name="地址异常相关流程">
-    <mxGraphModel dx="2133" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2202" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -832,13 +832,8 @@
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-11" value="落库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="185" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="O-ud5SB4EqsjQ3awYvkP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-25" target="O-ud5SB4EqsjQ3awYvkP-17">
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-44" target="O-ud5SB4EqsjQ3awYvkP-17">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="O-ud5SB4EqsjQ3awYvkP-27" value="正常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O-ud5SB4EqsjQ3awYvkP-18">
-          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-13" value="查询对应的寄件地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="430" width="100" height="50" as="geometry" />
@@ -860,22 +855,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-17" value="寄件地址是否存在&lt;br&gt;且只有一个" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="420" width="130" height="70" as="geometry" />
+          <mxGeometry x="1190" y="420" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-19" target="O-ud5SB4EqsjQ3awYvkP-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-19" value="触发GG预警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="585" width="100" height="50" as="geometry" />
+          <mxGeometry x="1205" y="585" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-21" target="O-ud5SB4EqsjQ3awYvkP-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-21" value="记录异常表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="690" width="100" height="50" as="geometry" />
+          <mxGeometry x="1205" y="690" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-23" value="更新主数据快递公司状态为异常" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="790" width="100" height="50" as="geometry" />
+          <mxGeometry x="1205" y="790" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-13" target="O-ud5SB4EqsjQ3awYvkP-25">
           <mxGeometry relative="1" as="geometry">
@@ -903,10 +898,97 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-33" value="补充寄件地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="430" width="100" height="50" as="geometry" />
+          <mxGeometry x="1390" y="430" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O-ud5SB4EqsjQ3awYvkP-36" value="下传GG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="430" width="100" height="50" as="geometry" />
+          <mxGeometry x="1540" y="430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-38" target="O-ud5SB4EqsjQ3awYvkP-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-38" value="定时任务" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="800" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-39" target="O-ud5SB4EqsjQ3awYvkP-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-39" value="查看主数据快递公司状态为地址异常的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="800" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-41" target="O-ud5SB4EqsjQ3awYvkP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-41" value="遍历数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="800" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-43" target="O-ud5SB4EqsjQ3awYvkP-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-43" value="查询对应的寄件地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="800" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-25" target="O-ud5SB4EqsjQ3awYvkP-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="455" as="sourcePoint" />
+            <mxPoint x="1190" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-46" value="正常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O-ud5SB4EqsjQ3awYvkP-45">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-44" value="查询对应的寄件地址" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-48" target="O-ud5SB4EqsjQ3awYvkP-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-53" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O-ud5SB4EqsjQ3awYvkP-52">
+          <mxGeometry x="-0.1389" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-48" target="O-ud5SB4EqsjQ3awYvkP-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-48" value="寄件地址是否存在&lt;br&gt;且只有一个" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="790" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-50" target="O-ud5SB4EqsjQ3awYvkP-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-57" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O-ud5SB4EqsjQ3awYvkP-56">
+          <mxGeometry x="-0.0476" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-50" value="更新主数据快递公司状态为正常接单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="960" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-51" value="结束当前快递公司" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="800" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-55" target="O-ud5SB4EqsjQ3awYvkP-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-55" value="查询此店铺、快递公司对应的异常单据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="960" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-58" target="O-ud5SB4EqsjQ3awYvkP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-58" value="遍历下发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="960" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-ud5SB4EqsjQ3awYvkP-61" target="O-ud5SB4EqsjQ3awYvkP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-61" value="人工手动触发&lt;br&gt;快递异常梳理" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O-ud5SB4EqsjQ3awYvkP-62" value="运维" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="1060" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
