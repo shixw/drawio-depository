@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T15:40:56.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EBvNI35NoAug5S5AXzLx" version="21.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-05T15:44:05.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uegkdJUFeYKKHyNsVgP1" version="21.7.1" type="github" pages="4">
   <diagram name="用例" id="6TFDku2e0TgfrtryKRBb">
     <mxGraphModel dx="1306" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -813,7 +813,7 @@
         <mxCell id="gPqeRYT--NqakvPqCW3Q-5" value="........" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-215" y="250" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gPqeRYT--NqakvPqCW3Q-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="Tnpz7xAw4N3dA-RRGuxU-1" target="gPqeRYT--NqakvPqCW3Q-1" edge="1">
+        <mxCell id="gPqeRYT--NqakvPqCW3Q-6" value="异步" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="Tnpz7xAw4N3dA-RRGuxU-1" target="gPqeRYT--NqakvPqCW3Q-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="240" as="sourcePoint" />
             <mxPoint x="170" y="190" as="targetPoint" />
@@ -1029,7 +1029,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tnpz7xAw4N3dA-RRGuxU-1" value="发货、部分发货等&lt;br&gt;消息接收" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="185" width="100" height="50" as="geometry" />
+          <mxGeometry x="-70" y="185" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ss0f77QDf9gisprZUWme-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gPqeRYT--NqakvPqCW3Q-1" target="Ss0f77QDf9gisprZUWme-1">
           <mxGeometry relative="1" as="geometry">
